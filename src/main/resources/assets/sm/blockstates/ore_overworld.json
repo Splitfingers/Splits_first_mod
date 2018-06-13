@@ -1,0 +1,6 @@
+{
+	"variants":
+	{
+		"variant=ruby": { "model": "sm:ore_overworld_ruby" }
+	}
+}
