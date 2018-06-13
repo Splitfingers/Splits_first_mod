@@ -1,6 +1,0 @@
-{
-   "parent": "item/handheld",
-   "textures": {
-       "layer0": "sm:items/black_hardened_clay_pickaxe"
-   }
-}

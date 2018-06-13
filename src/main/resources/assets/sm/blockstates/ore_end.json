@@ -1,6 +1,0 @@
-{
-	"variants":
-	{
-		"variant=ruby": { "model": "sm:ore_end_ruby" }
-	}
-}
