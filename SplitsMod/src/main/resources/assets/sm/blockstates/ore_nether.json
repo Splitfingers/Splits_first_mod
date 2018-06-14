@@ -1,0 +1,6 @@
+{
+	"variants":
+	{
+		"variant=ruby": { "model": "sm:ore_nether_ruby" }
+	}
+}

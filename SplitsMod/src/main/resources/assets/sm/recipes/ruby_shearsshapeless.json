@@ -1,0 +1,23 @@
+{ 
+    "type": "minecraft:crafting_shapeless",
+
+    "ingredients": 
+    [
+
+    {
+      "item": "sm:ruby"
+    },
+    
+    {
+      "item": "sm:ruby"
+    }
+    
+   
+    ],
+
+    "result": 
+    {
+        "item": "sm:ruby_shears",
+        "count": 1
+    }
+}
