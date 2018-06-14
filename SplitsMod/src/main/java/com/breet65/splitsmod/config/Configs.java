@@ -18,6 +18,7 @@ public class Configs {
 	
 	public static class ConfigItem {
 		
+		//https://github.com/TechReborn/RebornCore/blob/1.12/src/main/java/reborncore/common/config/ConfigGuiFactory.java
 		@Config.Comment({"Requires an Iron Block for crafting.", "Default:false"})
 		public boolean rBlockIron = false;
 		

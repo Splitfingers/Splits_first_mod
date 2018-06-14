@@ -3,6 +3,7 @@ package com.breet65.splitsmod.init;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.breet65.splitsmod.config.Configs;
 import com.breet65.splitsmod.items.ItemBase;
 import com.breet65.splitsmod.items.armor.ArmorBase;
 import com.breet65.splitsmod.items.tools.ToolAxe;
@@ -25,6 +26,7 @@ import net.minecraft.item.ItemPickaxe;
 import net.minecraft.item.ItemShears;
 import net.minecraft.item.ItemSpade;
 import net.minecraft.item.ItemSword;
+import net.minecraftforge.common.config.Config;
 import net.minecraftforge.common.util.EnumHelper;
 
 public class ModItems
@@ -41,6 +43,8 @@ public class ModItems
 	public static final List<Item> ITEMS = new ArrayList<Item>();
 	
 	public static final Item RUBY = new ItemBase("ruby");
+	//public static final Item HEADMATERIAL = new ItemBase("headMaterial");
+	//public static final Item HANDLEMATERIAL = new ItemBase("handlematerial");
 	
 	//Tools
 	public static final ItemSword RUBY_SWORD = new ToolSword("ruby_sword", MATERIAL_RUBY);
@@ -59,4 +63,19 @@ public class ModItems
 	public static final ItemArmor RUBY_CHESTPLATE = new ArmorBase("ruby_chestplate", RUBY_ARMOR, 1, EntityEquipmentSlot.CHEST);
 	public static final ItemArmor RUBY_LEGGINGS = new ArmorBase("ruby_leggings", RUBY_ARMOR, 2, EntityEquipmentSlot.LEGS);
 	public static final ItemArmor RUBY_BOOTS = new ArmorBase("ruby_boots", RUBY_ARMOR, 1, EntityEquipmentSlot.FEET);
+	
+	/*public static void HardModeReceipes() {
+		
+		if (Configs.crafting.rBlockIron = true ) {
+			ModItems.ITEMS. = "minecraft:iron_block";
+		} else {
+			ModItems.handleMaterial = "minecraft:stick";
+		}
+		
+		if (Configs.crafting.rBlockRuby = true) {
+			ModItems.headMaterial = Reference.MOD_ID + ":ruby_block";
+		} else {
+			ModItems.headMaterial = Reference.MOD_ID + ":ruby";
+		}
+	}*/
 }
