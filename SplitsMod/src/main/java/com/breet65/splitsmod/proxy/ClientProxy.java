@@ -1,6 +1,6 @@
 package com.breet65.splitsmod.proxy;
 
-import com.breet65.splitsmod.config.Config;
+
 import com.breet65.splitsmod.util.Reference;
 
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;

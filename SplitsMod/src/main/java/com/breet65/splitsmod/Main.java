@@ -1,6 +1,6 @@
 package com.breet65.splitsmod;
 
-import com.breet65.splitsmod.config.Config;
+
 import com.breet65.splitsmod.init.ModRecipes;
 import com.breet65.splitsmod.proxy.CommonProxy;
 import com.breet65.splitsmod.util.Reference;
