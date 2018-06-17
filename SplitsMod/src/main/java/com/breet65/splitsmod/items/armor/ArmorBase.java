@@ -6,7 +6,6 @@ import com.breet65.splitsmod.util.IHasModel;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.inventory.EntityEquipmentSlot;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemArmor;
 
 public class ArmorBase extends ItemArmor implements IHasModel 

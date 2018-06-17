@@ -3,7 +3,6 @@ package com.breet65.splitsmod.init;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.breet65.splitsmod.blocks.BlockBase;
 import com.breet65.splitsmod.blocks.RubyBlock;
 
 import net.minecraft.block.Block;

@@ -3,9 +3,9 @@
     
     "pattern":
     [
-        "RR ",
-        "RS ",
-        " S "
+        "RR",
+        "RS",
+        " S"
     ],
     
     "key":
@@ -17,7 +17,7 @@
         
         "S":
         {
-            "item": "sm:minecraft:stick"
+            "item": "minecraft:stick"
         }
     },
     

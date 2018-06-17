@@ -6,7 +6,6 @@ import com.breet65.splitsmod.util.IHasModel;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemShears;
-import net.minecraft.item.Item.ToolMaterial;
 
 public class ToolShears extends ItemShears implements IHasModel 
 {

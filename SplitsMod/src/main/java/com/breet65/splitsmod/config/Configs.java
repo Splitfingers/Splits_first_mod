@@ -3,7 +3,6 @@ package com.breet65.splitsmod.config;
 import com.breet65.splitsmod.util.Reference;
 
 import net.minecraftforge.common.config.Config;
-import net.minecraftforge.common.config.Config.Comment;
 import net.minecraftforge.common.config.ConfigManager;
 import net.minecraftforge.fml.client.event.ConfigChangedEvent;
 import net.minecraftforge.fml.common.Mod;

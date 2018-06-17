@@ -6,7 +6,7 @@ import com.breet65.splitsmod.util.IHasModel;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemAxe;
-import net.minecraft.item.Item.ToolMaterial;
+
 
 public class ToolAxe extends ItemAxe implements IHasModel
 {

@@ -6,7 +6,6 @@ import com.breet65.splitsmod.util.IHasModel;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemHoe;
-import net.minecraft.item.Item.ToolMaterial;
 
 public class ToolHoe extends ItemHoe implements IHasModel 
 {

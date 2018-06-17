@@ -3,7 +3,6 @@ package com.breet65.splitsmod.init;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.breet65.splitsmod.config.Configs;
 import com.breet65.splitsmod.items.ItemBase;
 import com.breet65.splitsmod.items.armor.ArmorBase;
 import com.breet65.splitsmod.items.tools.ToolAxe;
@@ -26,7 +25,6 @@ import net.minecraft.item.ItemPickaxe;
 import net.minecraft.item.ItemShears;
 import net.minecraft.item.ItemSpade;
 import net.minecraft.item.ItemSword;
-import net.minecraftforge.common.config.Config;
 import net.minecraftforge.common.util.EnumHelper;
 
 public class ModItems
