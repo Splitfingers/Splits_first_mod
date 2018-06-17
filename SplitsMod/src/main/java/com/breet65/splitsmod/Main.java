@@ -1,10 +1,17 @@
 package com.breet65.splitsmod;
 
 
+import java.io.File;
+
+import org.apache.commons.logging.Log;
+import org.apache.logging.log4j.Level;
+
 import com.breet65.splitsmod.init.ModRecipes;
 import com.breet65.splitsmod.proxy.CommonProxy;
 import com.breet65.splitsmod.util.Reference;
 
+import net.minecraftforge.common.config.Configuration;
+import net.minecraftforge.fml.common.Loader;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
@@ -13,9 +20,9 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
-@Mod(modid = Reference.MOD_ID, name = Reference.NAME, version = Reference.VERSION, guiFactory = Reference.GUI_FACTORY )
+@Mod(modid = Reference.MOD_ID, name = Reference.NAME, version = Reference.VERSION )
 public class Main {
-
+	
 	@Instance
 	public static Main instance;
 	
@@ -27,6 +34,7 @@ public class Main {
 	{
 		
 	}
+	
 	
 	@EventHandler
 	public static void init(FMLInitializationEvent event)

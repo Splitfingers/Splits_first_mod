@@ -19,13 +19,19 @@ import net.minecraftforge.fml.client.config.IConfigElement;
 
 public abstract class GuiConfigFactory implements IModGuiFactory {
 
-	public abstract String getModID();
-	public abstract String getModName();
+	public static String getModID() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	public static String getModName() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 	
 	public static class ConfigGui extends GuiConfig{
 		
 		public ConfigGui(GuiScreen parentScreen, String modid, String modName) {
-			super(parentScreen, getElements(modid), modid, modName, false, false, modName + "Configuration");
+			super(parentScreen, getElement(modid), modid, modName, false, false, modName + "Configuration");
 		}
 		
 		public static List<IConfigElement> getElement(String modid){
